@@ -181,4 +181,32 @@ alarma) en una situación de mala perfusión?**
 # Referencias
 
 
+[1] Shenzhen Mindray Bio-Medical Electronics Co., Ltd., uMEC 60/uMEC 70/uMEC 80/uMEC 100/uMEC 120/uMEC 150 Patient Monitor Operator's Manual, Rev. 2.0, Jul. 2023. [En línea]. Disponible en: https://www.mindray.com/content/dam/xpace/en/site/mdr-sscp/patient-monitor/umec-series-60-70-80-100-120-150-safety-and-performance-information.pdf. 
+mindray.com
+
+
+[2] U.S. Food and Drug Administration (FDA), “Pulse Oximeters,” FDA, [En línea]. Disponible en: https://www.fda.gov/medical-devices/products-and-medical-procedures/pulse-oximeters. 
+FDA
+
+
+[3] U.S. Food and Drug Administration (FDA), “Pulse Oximeters - Premarket Notification Submissions [510(k)s]: Guidance for Industry and Food and Drug Administration Staff,” Mar. 4, 2013. [En línea]. Disponible en: https://www.fda.gov/regulatory-information/search-fda-guidance-documents/pulse-oximeters-premarket-notification-submissions-510ks-guidance-industry-and-food-and-drug. 
+FDA
+
+
+[4] Pronk Technologies, OxSim SpO2 Simulator: Operator's Manual, Rev. O, Jul. 18, 2017. [En línea]. Disponible en: https://www.pronktech.com/wp-content/uploads/2015/02/501-0603-OX-1-Op-Manual-Rev-O.pdf. 
+Pronk Technologies
+
+
+[5] Pronk Technologies, “OX-1 OxSim Optical SpO2 Pulse Oximeter Tester: Features and Technical Specifications,” [En línea]. Disponible en: https://www.pronktech.com/wp-content/uploads/2020/03/OX-1-OxSim-Pulse-Oximeter-Simulator-Features.pdf. 
+Pronk Technologies+1
+
+
+[6] International Electrotechnical Commission (IEC), IEC 60601-1-8:2006. Medical Electrical Equipment—Part 1-8: General Requirements for Basic Safety and Essential Performance—Collateral Standard: General Requirements, Tests and Guidance for Alarm Systems in Medical Electrical Equipment and Medical Electrical Systems, 2006, con enmiendas de 2012 y 2020. 
+ISO
+
+
+[7] International Organization for Standardization (ISO), ISO 80601-2-61:2026. Medical Electrical Equipment—Part 2-61: Particular Requirements for Basic Safety and Essential Performance of Pulse Oximeter Equipment, 3rd ed., Apr. 2026. [En línea]. Disponible en: https://www.iso.org/standard/84595.html. 
+ISO
+
+
 
