@@ -49,9 +49,77 @@ Los simuladores biomédicos son instrumentos utilizados para evaluar el funciona
 En el caso de los pulsioxímetros, estos simuladores permiten reproducir señales ópticas que representan diferentes valores de saturación de oxígeno, frecuencia cardíaca y condiciones de perfusión. De esta manera, es posible comprobar si el monitor reconoce los cambios introducidos y responde de acuerdo con los parámetros configurados [2], [4].
 
 
+
 **1.5. Simulador Pronk OxSim OX-1**
 
 
+<img width="400" alt="image" src="https://github.com/user-attachments/assets/bf07ba53-453a-4e44-b0c8-5aab1cfe959d" />
+
+**Imagen 1.** Simulador Pronk OxSim OX-1.
+
+*Tomado de: [https://shop.hduhealthcare.com/product/mindray-umec-100-patient-monitor](https://www.medicalexpo.com/prod/pronk-technologies/product-112475-745960.html?)*
+
+
+
+El Pronk OxSim OX-1 es un dispositivo diseñado para comprobar el funcionamiento de los pulsioxímetros mediante la generación de señales ópticas simuladas. Su funcionamiento consiste en emitir señales de luz roja e infrarroja que son detectadas por el sensor de SpO₂ del monitor, permitiendo evaluar la respuesta del sistema de medición [4].
+
+
+De acuerdo con el manual de operación de Pronk Technologies, el equipo dispone de diferentes modos de simulación que permiten representar condiciones fisiológicas específicas. Entre las principales variables que reproduce se encuentran:
+- **Saturación de oxígeno (SpO₂):** permite establecer diferentes porcentajes de saturación para comprobar la respuesta del monitor ante cambios en la oxigenación simulada.
+- **Frecuencia cardíaca:** reproduce diferentes frecuencias de pulso, permitiendo evaluar la capacidad del monitor para identificar valores bajos, normales o elevados.
+- **Índice de perfusión (PI):** representa la intensidad relativa del componente pulsátil de la señal óptica, permitiendo evaluar el comportamiento del pulsioxímetro ante condiciones de perfusión reducida [4], [5].
+
+El fabricante establece cinco modos principales de funcionamiento, cuyas características se presentan a continuación:
+
+**Tabla 1**. Principales funcionamientos.
+
+*Tomado de: Manual de operación y ficha técnica del Pronk OxSim OX-1 [4], [5].*
+
+| Modo de simulación | SpO₂ | Frecuencia cardíaca | PI aproximado |
+|:------------------:|:----:|:-------------------:|:-------------:|
+| 85 %               | 85 % | 80 bpm              | 2,0           |
+| 95 %               | 95 % | 40 bpm              | 2,0           |
+| 98 %               | 98 % | 80 bpm              | 2,0           |
+| 140 BPM            | 98 % | 140 bpm             | 2,0           |
+| Low Perfusion      | 99 % | 80 bpm              | 0,2           |
+
+
+Estos modos permiten evaluar diferentes condiciones durante la práctica, como la bradicardia, la taquicardia, la disminución de la saturación de oxígeno y la baja perfusión. Sin embargo, es importante considerar que el simulador permite comprobar la respuesta funcional del pulsioxímetro, pero no sustituye las pruebas clínicas necesarias para establecer la exactitud real de la medición de SpO₂ [3], [4].
+
+**1.6. Índice de perfusión y condiciones de baja perfusión**
+El índice de perfusión (PI) es un indicador relacionado con la intensidad del componente pulsátil de la señal detectada por el sensor de pulsioximetría en comparación con su componente no pulsátil. Este parámetro permite estimar la intensidad de la señal arterial presente en el sitio de medición [1].
+
+Cuando existe una disminución de la perfusión periférica, la amplitud de la señal pulsátil puede reducirse, dificultando la detección de los cambios ópticos necesarios para calcular la saturación de oxígeno. Como consecuencia, el monitor puede presentar lecturas inestables, errores de medición o dificultades para obtener un valor confiable de SpO₂ [1], [3].
+
+El modo Low Perfusion del Pronk OxSim OX-1 permite evaluar esta condición al simular una saturación del 99 %, una frecuencia cardíaca de 80 bpm y un índice de perfusión aproximado de 0,2. Esta configuración permite analizar el comportamiento del monitor cuando recibe una señal pulsátil de baja intensidad [4].
+
+
+**1.7. Sistemas de alarmas en los monitores de signos vitales**
+Los sistemas de alarmas son elementos fundamentales de los monitores multiparamétricos, debido a que permiten advertir al personal clínico cuando una variable fisiológica supera los límites establecidos. Generalmente, las alarmas se configuran mediante valores máximos y mínimos para parámetros como la frecuencia cardíaca y la saturación de oxígeno [1], [6].
+
+De acuerdo con la norma IEC 60601-1-8, los sistemas de alarmas de los equipos electromédicos deben considerar aspectos como la prioridad de las alarmas, sus señales visuales y sonoras y los mecanismos de control correspondientes. Estos elementos buscan facilitar la identificación de situaciones que requieren atención y mantener una comunicación adecuada de las condiciones de alarma [6].
+
+Durante la evaluación funcional de un monitor, es importante comprobar que las alarmas se activen cuando los valores simulados superan los límites configurados. También debe registrarse el tiempo transcurrido entre la modificación de la variable y la activación de la alarma, ya que permite analizar la respuesta del equipo ante condiciones que podrían representar un riesgo para el paciente.
+
+**1.8. Exactitud y tolerancias de medición**
+La exactitud de un equipo biomédico representa el grado de concordancia entre el valor indicado por el instrumento y un valor de referencia. Su evaluación es importante para determinar si las mediciones obtenidas se encuentran dentro de las especificaciones establecidas por el fabricante y las normas técnicas aplicables [3].
+
+En los pulsioxímetros, la exactitud de la SpO₂ se evalúa mediante comparaciones con mediciones de saturación arterial obtenidas por cooximetría. La FDA recomienda considerar los criterios de evaluación establecidos en la norma ISO 80601-2-61, que contempla aspectos relacionados con la exactitud, la perfusión reducida, el movimiento y el funcionamiento de las alarmas [3], [7].
+
+Para evaluar las diferencias entre los valores de referencia y los mostrados por el monitor, se pueden utilizar el error absoluto y el error porcentual, expresados mediante las siguientes ecuaciones:
+
+Error absoluto:
+$$
+E_a = |V_{\text{referencia}} - V_{\text{medido}}|
+$$
+
+Error porcentual:
+$$
+E_{\%} = \frac{|V_{\text{referencia}} - V_{\text{medido}}|}
+{|V_{\text{referencia}}|} \times 100
+$$
+
+Estas expresiones permiten cuantificar las diferencias entre los valores programados en el simulador y los registrados por el monitor. No obstante, la tolerancia de medición debe establecerse de acuerdo con las especificaciones particulares de cada equipo y sensor, sin asumir que el error del simulador corresponde directamente a la exactitud clínica del monitor [3], [4].
 
 
 
