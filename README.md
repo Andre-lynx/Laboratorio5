@@ -218,7 +218,7 @@ Por esta razón, no es correcto asignarle arbitrariamente un error máximo permi
 
 *Tomado de: Elaboración propia.*
 
-| Parámetro | Config. 1 BPM | Config. 1 SpO2 | Config. 2 BPM | Config. 2 SpO2 | Config. 3 BPM | Config. 3 SpO2 | Config. 4 BPM | Config. 4 SpO2 |
+| Parámetro | Config. 1 BPM | Config. 1 SpO2% | Config. 2 BPM | Config. 2 SpO2% | Config. 3 BPM | Config. 3 SpO2% | Config. 4 BPM | Config. 4 SpO2% |
 |:---|---:|---:|---:|---:|---:|---:|---:|---:|
 | Valores simulados | 40 | 95 | 80 | 85 | 80 | 97 | 140 | 98 |
 | Valores reales | 40 | 96 | 80 | 85 | 80 | 100 | 140 | 99 |
