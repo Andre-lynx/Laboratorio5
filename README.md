@@ -47,7 +47,7 @@ D30 y la frecuencia cardíaca/saturación periférica de oxígeno.**
 
 
 
-# Conclusiones
+# Conclusión
 
 
 
