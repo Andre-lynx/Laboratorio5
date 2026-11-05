@@ -1,8 +1,8 @@
 # Simulación y Monitoreo de Variables Cardiovasculares y Hemodinámicas
 **Integrantes:**
-- Luciana Carbone Calderón
-- Paula Andrea Delgado Pecha
-- Marya Kathalina Prieto Martinez
+- Luciana Carbone Calderón (5600882)
+- Paula Andrea Delgado Pecha (5600605)
+- Marya Kathalina Prieto Martinez (5600875)
 
 # Parte A
 # 1) Revisión de la literatura
