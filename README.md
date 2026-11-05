@@ -126,17 +126,70 @@ Estas expresiones permiten cuantificar las diferencias entre los valores program
 
 # 2) Preguntas
 **a. ¿Cómo colocar al uMEC 100 en modo “monitor”?**
+De acuerdo con el manual de operación del fabricante Mindray, el monitor uMEC 100 ingresa automáticamente al modo de monitorización (Monitoring Mode) cuando se enciende, por lo que no es necesario seleccionarlo manualmente desde un menú [1].
 
+Para realizar este procedimiento se deben seguir los siguientes pasos:
+1. Verificar que el equipo no presente daños físicos y que sus cables y accesorios estén correctamente conectados.
+2. Conectar el cable de alimentación a la fuente eléctrica.
+3. Presionar el interruptor de encendido ubicado en el equipo.
+4. Esperar a que finalice el proceso de inicio. Una vez encendido, el monitor ingresa automáticamente al modo de monitorización.
+5. Comprobar que los parámetros fisiológicos y las formas de onda se visualicen correctamente en la pantalla.
+Es importante tener en cuenta que, durante los primeros dos minutos después del encendido, las alarmas permanecen temporalmente pausadas. Posteriormente, el sistema de alarmas se activa automáticamente.
 
 
 **b. ¿Qué tipo de parámetros o variables fisiológicas pueden simularse con el
 Pronk OxSim OX-1? Explique cada uno.**
+
+El simulador Pronk OxSim OX-1 permite reproducir señales ópticas que representan diferentes condiciones fisiológicas para comprobar el funcionamiento de los pulsioxímetros. Principalmente, permite simular tres parámetros: la saturación periférica de oxígeno (SpO₂), la frecuencia cardíaca o del pulso (FC) y el índice de perfusión (PI).
+
+**1. Saturación periférica de oxígeno (SpO₂):**
+
+Representa el porcentaje de hemoglobina arterial que se encuentra unida al oxígeno. El OxSim permite simular diferentes niveles de saturación, específicamente 85 %, 95 %, 98 % y 99 %, dependiendo del modo seleccionado. Esto permite comprobar la respuesta del monitor ante condiciones de saturación normal y reducida.
+
+**2. Frecuencia cardíaca o frecuencia del pulso (FC):**
+
+Corresponde al número de pulsaciones detectadas durante un minuto y se expresa en latidos por minuto (bpm). El simulador permite establecer frecuencias de 40, 80 y 140 bpm. Estos valores permiten evaluar la respuesta del monitor ante diferentes condiciones, como bradicardia (40 bpm), frecuencia de referencia (80 bpm) y taquicardia (140 bpm).
+
+**3. Índice de perfusión (PI):**
+
+Es un indicador de la intensidad relativa del componente pulsátil de la señal óptica detectada por el sensor de pulsioximetría. Se relaciona con la cantidad de sangre arterial que produce variaciones en la señal durante cada pulsación. El OxSim permite simular valores aproximados de PI de 2,0 y 0,2. El primero representa una condición de perfusión de mayor intensidad, mientras que el segundo corresponde a una condición de baja perfusión, en la que la señal pulsátil es más débil y puede dificultar la medición de la SpO₂ [2], [3].
+
+El fabricante integra estos parámetros en cinco modos de funcionamiento, como se presenta a continuación:
+
+| Modo          | SpO₂ | Frecuencia del pulso | PI  |
+|:-------------:|:----:|:--------------------:|:---:|
+| 85 %          | 85 % | 80 bpm               | 2,0 |
+| 95 %          | 95 % | 40 bpm               | 2,0 |
+| 98 %          | 98 % | 80 bpm               | 2,0 |
+| 140 BPM       | 98 % | 140 bpm              | 2,0 |
+| Low Perfusion | 99 % | 80 bpm               | 0,2 |
+
+
 
 
 
 **c. En el ámbito clínico ¿Cuáles son las tolerancias o errores máximos
 permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
 (b)?**
+
+
+Para establecer las tolerancias de medición es necesario diferenciar entre la exactitud de la señal generada por el simulador y la exactitud del monitor que recibe dicha señal. El fabricante Pronk Technologies establece especificaciones particulares para la simulación de SpO₂ y frecuencia del pulso; sin embargo, no proporciona una tolerancia numérica específica para el índice de perfusión.
+
+**1. Saturación periférica de oxígeno (SpO₂):**
+
+El fabricante establece que el error de saturación mostrado debe ser menor o igual a la tolerancia especificada para el sensor de pulsioximetría. Generalmente, los sensores reutilizables presentan una tolerancia de ±2 %, mientras que los sensores desechables pueden presentar tolerancias de ±2 % o ±3 %.
+
+Por otra parte, en el ámbito clínico, la norma ISO 80601-2-61 establece criterios de evaluación de la exactitud de los pulsioxímetros. Uno de los criterios utilizados es $$ (A_{RMS}\leq 4\%\$$ para el intervalo de saturación de 70 % a 100 %, bajo las condiciones de evaluación correspondientes. Este valor representa un error cuadrático medio, no un error máximo individual permitido para cada lectura.
+
+**2. Frecuencia cardíaca o frecuencia del pulso (FC):**
+
+Según las especificaciones técnicas del Pronk OxSim OX-1, el error de simulación de la frecuencia del pulso es inferior a 1 bpm. Por lo tanto, los valores mostrados por el monitor deberían presentar una diferencia inferior a 1 bpm respecto al valor programado en el simulador.
+
+**3. Índice de perfusión (PI):**
+
+Para este parámetro, el fabricante establece valores aproximados de simulación de 2,0 y 0,2, pero no especifica una tolerancia o error máximo permitido para su medición. Además, el índice de perfusión no cuenta con un límite universal de exactitud clínica aplicable a todos los pulsioxímetros, ya que su interpretación depende del fabricante y del dispositivo utilizado.
+
+Por esta razón, no es correcto asignarle arbitrariamente un error máximo permitido. En la práctica, se debe comprobar que el monitor responda adecuadamente a las condiciones de perfusión simuladas.
 
 
 # Parte B
