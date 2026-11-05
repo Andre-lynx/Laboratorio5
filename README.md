@@ -55,7 +55,7 @@ En el caso de los pulsioxímetros, estos simuladores permiten reproducir señale
 
 <img width="400" alt="image" src="https://github.com/user-attachments/assets/bf07ba53-453a-4e44-b0c8-5aab1cfe959d" />
 
-**Imagen 1.** Simulador Pronk OxSim OX-1.
+**Imagen 2.** Simulador Pronk OxSim OX-1.
 
 *Tomado de: [https://shop.hduhealthcare.com/product/mindray-umec-100-patient-monitor](https://www.medicalexpo.com/prod/pronk-technologies/product-112475-745960.html?)*
 
