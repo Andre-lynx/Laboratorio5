@@ -34,14 +34,22 @@ Una de sus características principales es la capacidad de generar alarmas visua
 
 **1.3. Pulsioximetría y medición de la SpO₂**
 
+La pulsioximetría es una técnica no invasiva que permite estimar la saturación de oxígeno de la hemoglobina arterial (SpO₂) y determinar la frecuencia del pulso sin necesidad de extraer muestras de sangre. Su funcionamiento se basa en las propiedades ópticas de la hemoglobina oxigenada y desoxigenada, las cuales presentan diferentes características de absorción de luz [2], [3].
+
+El sensor de pulsioximetría utiliza dos fuentes de luz con longitudes de onda diferentes: una correspondiente a la luz roja y otra a la luz infrarroja. Estas atraviesan el tejido, generalmente a través de un dedo, y son detectadas por un fotodetector ubicado en el sensor. A partir de las variaciones en la intensidad de luz recibida durante el ciclo cardíaco, el monitor procesa la señal y estima la saturación de oxígeno [2].
+
+La señal obtenida se conoce como onda pletismográfica y representa las variaciones del volumen sanguíneo en el tejido asociadas con cada pulsación arterial. Esta señal permite identificar la actividad pulsátil y obtener información relacionada con la frecuencia del pulso. Por lo tanto, además del valor numérico de SpO₂, su representación gráfica permite observar la calidad y estabilidad de la señal adquirida [1], [2].
 
 
 
+**1.4. Simuladores de parámetros fisiológicos**
+
+Los simuladores biomédicos son instrumentos utilizados para evaluar el funcionamiento de los equipos médicos mediante la generación de señales o condiciones fisiológicas controladas. Su utilización permite comprobar la respuesta de los dispositivos, verificar sus mediciones y evaluar el funcionamiento de los sistemas de alarma sin necesidad de utilizar pacientes reales [4].
+
+En el caso de los pulsioxímetros, estos simuladores permiten reproducir señales ópticas que representan diferentes valores de saturación de oxígeno, frecuencia cardíaca y condiciones de perfusión. De esta manera, es posible comprobar si el monitor reconoce los cambios introducidos y responde de acuerdo con los parámetros configurados [2], [4].
 
 
-
-
-
+**1.5. Simulador Pronk OxSim OX-1**
 
 
 
