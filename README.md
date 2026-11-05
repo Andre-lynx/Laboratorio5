@@ -196,6 +196,36 @@ Por esta razón, no es correcto asignarle arbitrariamente un error máximo permi
 
 # Tabla para verificación de alarmas y errores de medición
 
+**Tabla 3.** Configuraciones y tiempos de respuesta.
+
+*Tomado de: Elaboración propia.*
+
+| Parámetro | Configuración 1 | Configuración 2 | Configuración 3 | Configuración 4 |
+|:---|:---:|:---:|:---:|:---:|
+| Límite configurado | Bajo 90%, alto 97% | Bajo 90%, alto 97% | Bajo 90%, alto 97% | Bajo 90%, alto 97% |
+| Valor simulado | 40 bpm, SpO2 95% | 80 bpm, SpO2 85% | 80 bpm, SpO2 90% | 140 bpm, SpO2 98% |
+| Alarma activa | Sí | Sí | Sí | Sí |
+| Tiempo de respuesta 1 | 1:03 | 1:22 | 0:18 | 0:20 |
+| Tiempo de respuesta 2 | 0:08 | 0:09 | 0:10 | 0:11 |
+| Tiempo de alarma | 1:11 | 1:31 | 0:28 | 0:31 |
+
+
+
+
+
+
+**Tabla 4.** Valores medidos y errores.
+
+*Tomado de: Elaboración propia.*
+
+| Parámetro | Config. 1 BPM | Config. 1 SpO2 | Config. 2 BPM | Config. 2 SpO2 | Config. 3 BPM | Config. 3 SpO2 | Config. 4 BPM | Config. 4 SpO2 |
+|:---|---:|---:|---:|---:|---:|---:|---:|---:|
+| Valores simulados | 40 | 95 | 80 | 85 | 80 | 97 | 140 | 98 |
+| Valores reales | 40 | 96 | 80 | 85 | 80 | 100 | 140 | 99 |
+| Error porcentual | 0% | 1,05% | 0% | 0% | 0% | 3,09% | 0% | 1,02% |
+| Error absoluto | 0 | 1 | 0 | 0 | 0 | 3 | 0 | 1 |
+
+
 
 
 
