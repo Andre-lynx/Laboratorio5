@@ -226,11 +226,6 @@ Por esta razón, no es correcto asignarle arbitrariamente un error máximo permi
 | Error absoluto | 0 | 1 | 0 | 0 | 0 | 3 | 0 | 1 |
 
 
-
-
-
-# Parte C
-
 # Procedimiento
 
 
