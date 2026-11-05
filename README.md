@@ -40,6 +40,8 @@ permitidos (EMP) para cada parámetro fisiológico mencionado en la parte
 
 **• Análisis 1: Evalúe estadísticamente las diferencias entre los valores de
 energía de referencia y suministrados por el desfibrilador.**
+
+
 **• Análisis 2: Describa la relación entre la forma de onda que se visualiza en el
 D30 y la frecuencia cardíaca/saturación periférica de oxígeno.**
 
