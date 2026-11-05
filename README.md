@@ -205,9 +205,9 @@ Por esta razón, no es correcto asignarle arbitrariamente un error máximo permi
 | Límite configurado | Bajo 90%, alto 97% | Bajo 90%, alto 97% | Bajo 90%, alto 97% | Bajo 90%, alto 97% |
 | Valor simulado | 40 bpm, SpO2 95% | 80 bpm, SpO2 85% | 80 bpm, SpO2 90% | 140 bpm, SpO2 98% |
 | Alarma activa | Sí | Sí | Sí | Sí |
-| Tiempo de respuesta 1 | 1:03 | 1:22 | 0:18 | 0:20 |
-| Tiempo de respuesta 2 | 0:08 | 0:09 | 0:10 | 0:11 |
-| Tiempo de alarma | 1:11 | 1:31 | 0:28 | 0:31 |
+| Tiempo de respuesta 1 (min) | 1:03 | 1:22 | 0:18 | 0:20 |
+| Tiempo de respuesta 2 (min) | 0:08 | 0:09 | 0:10 | 0:11 |
+| Tiempo de alarma (min)| 1:11 | 1:31 | 0:28 | 0:31 |
 
 
 
